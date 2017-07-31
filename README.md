@@ -7,7 +7,7 @@ It must be fed with a cache matrix object created via the makeCacheMatrix functi
 The function takes advantage of the scoping rules of the R language 
 to preserve state inside of an R object.
 
-### Example: Caching the Mean of a Vector
+###  Caching the Inverse of a Matrix
 
 The first function, `cacheSolve` creates a special "matrix", which is
 really a list containing a function to
